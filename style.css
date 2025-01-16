@@ -59,7 +59,7 @@ section.card {
 }
 
 .nol, .satu, .dua, .tiga {
-    border: 2px solid white;
+    border: 3px solid white;
     height: 40px;
     width: 40px;
     font-size: 18px;
@@ -86,6 +86,7 @@ button {
     font-weight: bold;
     margin-top: 54px;
     border-style: none;
+    border: 3px solid white;
 }
 
 .nol {
@@ -119,4 +120,12 @@ button {
     top: 60px;
     left: -27px;
     font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border-color: white;
+    border: 3px solid white;
+    color: white;
 }
